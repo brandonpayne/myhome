@@ -822,7 +822,9 @@
 			width:14.25%
 			}
 		
-
+                        nav{
+                            position: fixed;
+                        }
 /* Button */
 
 	input[type="submit"],
@@ -1078,16 +1080,16 @@
 /* Banner */
 
 	#banner {
-		background-image: url(../images/dark_tint.png), url(../images/newyork.jpg);
+		background-image: url(../images/dark_tint.png), url(../images/saltlakecity.jpg);
 		background-position: center center;
 		background-size: cover;
 		color: #ffffff;
 		padding: 14em 0em 14em;
 		text-align: center;
-		height:950px;
+		height:925px;
 	}
 	#banner2 {
-		background-image: url(../images/dark_tint.png), url(../images/newyork2.jpg);
+		background-image: url(../images/dark_tint.png), url(../images/saltlakecity.jpg);
 		background-position: center center;
 		background-size: cover;
 		color: #ffffff;
@@ -1111,7 +1113,30 @@
 			font-size: 1.5em;
 			margin-bottom: 1.75em;
 		}
+/* About Section */
+.portfolio-background {
 
+		background-image: url(../images/chainlink.jpg);
+                background-size: cover;
+                background-repeat: no-repeat;
+                background-attachment:fixed;
+                width:150%px;
+                height:600px;
+
+}
+            .about {
+            width:50%;
+            height:100%;
+            float: right;
+
+            
+	}
+       .experience {
+            width:50%;
+            height:100$;
+            float: left;
+
+	}
 /* Wrapper */
 
 	.wrapper {
